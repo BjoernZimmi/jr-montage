@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MatIconModule } from "@angular/material/icon";
 
 @Component({
   selector: 'app-startpage',
-  imports: [],
+  imports: [MatIconModule],
   templateUrl: './startpage.component.html',
   styles: ``
 })

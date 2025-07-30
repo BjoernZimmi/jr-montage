@@ -1,1 +1,38 @@
-<p>footer works!</p>
+<footer class="footer">
+  <div class="footer-grid">
+    <!-- Logo + Kontakt -->
+    <div>
+      <h3>Kontakt</h3>
+      <p>Jan Rosenberger</p>
+      <p>Musterstraße 1<br>12345 Musterstadt</p>
+      <p>📞 <a href="tel:+49123456789">+49 175 / 381 9919</a></p>
+      <p>✉️ <a href="mailto:jr.montage@web.de">jr.montage&#64;web.de</a></p>
+    </div>
+
+    <!-- Navigation -->
+    <div>
+      <h3>Navigation</h3>
+      <ul>
+        <li><a routerLink="/">Startseite</a></li>
+        <li><a routerLink="/leistungen">Leistungen</a></li>
+        <li><a routerLink="/ueber-uns">Über uns</a></li>
+        <li><a routerLink="/kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <!-- Rechtliches -->
+    <div>
+      <h3>Rechtliches</h3>
+      <ul>
+        <li><a routerLink="/impressum">Impressum</a></li>
+        <li><a routerLink="/datenschutz">Datenschutz</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <mat-divider></mat-divider>
+
+  <div class="footer-bottom">
+    <p>&copy; {{ currentYear }} Montageservice Müller – Alle Rechte vorbehalten</p>
+  </div>
+</footer>
