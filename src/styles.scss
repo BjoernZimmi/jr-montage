@@ -22,7 +22,7 @@ h2 {
 app-root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; // Seite ist immer mindestens so hoch wie der Bildschirm
+  min-height: 100vh;
 }
 
 address {
@@ -32,12 +32,13 @@ address {
 }
 
 a {
-  color: #0066cc;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: black;
 }
 
 @media (max-width: 600px) {
@@ -63,7 +64,7 @@ main {
 
 .footer {
   background-color: #f5f5f5;
-  padding: 0 1rem .5rem;
+  padding: 0 3rem .5rem;
   font-size: 0.9rem;
   color: #333;
 
