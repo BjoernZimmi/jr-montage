@@ -1,6 +1,6 @@
 {
   "routes": {
-    "/": {},
-    "/impressum": {}
+    "/jr-montage": {},
+    "/jr-montage/impressum": {}
   }
 }

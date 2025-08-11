@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/jr-montage',
   supportedLocales: {
   "en-US": ""
 },
