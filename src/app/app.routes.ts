@@ -3,11 +3,13 @@ import { ImpressumComponent } from './component/impressum/impressum.component';
 import { StartpageComponent } from './component/startpage/startpage.component';
 import { LeistungenComponent } from './component/leistungen/leistungen.component';
 import { KontaktComponent } from './component/kontakt/kontakt.component';
+import { DatenschutzComponent } from './component/datenschutz/datenschutz.component';
 
 export const routes: Routes = [
   { path: '', component: StartpageComponent },
   { path: 'impressum', component: ImpressumComponent },
   { path: 'leistungen', component: LeistungenComponent },
   { path: 'kontakt', component: KontaktComponent },
+  { path: 'datenschutz', component: DatenschutzComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
