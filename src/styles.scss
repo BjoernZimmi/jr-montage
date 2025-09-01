@@ -60,6 +60,7 @@ section {
   background-color: color.adjust($color-primary, $lightness: 40%);
   border: outset;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+  border-width: thick;
 }
 
 @media (max-width: 600px) {
