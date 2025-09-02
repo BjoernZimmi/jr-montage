@@ -305,3 +305,35 @@ mat-toolbar {
 .contact-info         { grid-area: info; }
 .contact-form-wrapper { grid-area: form; }
 .map-wrapper          { grid-area: map; }
+
+
+.datenschutz {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  line-height: 1.6;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: $color-primary;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    color: $color-secondary;
+    border-left: 5px solid $color-primary;
+    padding-left: 0.5rem;
+  }
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $color-secondary;
+    }
+  }
+}
