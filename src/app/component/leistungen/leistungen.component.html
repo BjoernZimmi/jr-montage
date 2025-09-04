@@ -1,3 +1,58 @@
-  <section>
-    <h1>Leistungen</h1>
-  </section>
+<section class="services-sections">
+  <header class="services-header">
+    <h1>Unsere Leistungen</h1>
+    <p>Individuelle Lösungen für Boden, Terrasse & Sichtschutz – präzise und zuverlässig umgesetzt.</p>
+  </header>
+
+  @for (s of services; track s.id; let i = $index; let last = $last) {
+    <!-- deine Artikel -->
+  }
+</section>
+
+<section class="services-sections">
+  @for (s of services; track s.id; let i = $index; let last = $last) {
+
+    <article class="svc" [id]="s.id" [class.rev]="i % 2 === 1">
+      <!-- großes Hero-Bild -->
+      <div class="media">
+        <img [src]="s.image" [alt]="s.title" loading="lazy" />
+      </div>
+
+      <!-- überlappende Content-Card -->
+      <div class="card">
+        <h2>{{ s.title }}</h2>
+        <p class="intro">{{ s.intro }}</p>
+
+        @if (s.points.length) {
+          <ul class="points">
+            @for (p of s.points; track p) {
+              <li>{{ p }}</li>
+            }
+          </ul>
+        }
+
+        <div class="cta-row">
+          <a class="btn btn-primary" routerLink="/kontakt">
+            Unverbindlich anfragen
+          </a>
+        </div>
+      </div>
+
+      <!-- Galerie -->
+      @if (s.gallery.length) {
+        <div class="mini-gallery">
+          @for (g of s.gallery; track g.src) {
+            <figure><img [src]="g.src" [alt]="g.alt" loading="lazy" /></figure>
+          }
+        </div>
+      }
+    </article>
+
+    <!-- nur wenn nicht letzter Block -->
+    @if (!last) {
+      <hr />
+      <br />
+      <br />
+    }
+  }
+</section>
