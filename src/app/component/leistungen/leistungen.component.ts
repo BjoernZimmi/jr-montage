@@ -32,7 +32,7 @@ export class LeistungenComponent {
       image: 'assets/img/terrasse.jpg',
       points: [
         'Stabile Unterkonstruktion mit Gefälle',
-        'Riffel- oder Glattholzdielen, verdeckte Verschraubung möglich',
+        'Holz & WPC-Dielen, verdeckte Verschraubung möglich',
         'Pflege/Ölen auf Wunsch',
         'Aufbau & Montage von Gartenhäusern'
       ],
