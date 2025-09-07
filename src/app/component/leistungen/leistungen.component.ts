@@ -33,7 +33,8 @@ export class LeistungenComponent {
       points: [
         'Stabile Unterkonstruktion mit Gefälle',
         'Riffel- oder Glattholzdielen, verdeckte Verschraubung möglich',
-        'Pflege/Ölen auf Wunsch'
+        'Pflege/Ölen auf Wunsch',
+        'Aufbau & Montage von Gartenhäusern'
       ],
       gallery: [
         { src: 'assets/img/gartenhaus.jpg',  alt: 'Terrasse mit Sitzgruppe' },
@@ -42,13 +43,12 @@ export class LeistungenComponent {
     },
     {
       id: 'sichtschutz',
-      title: 'Sichtschutz',
+      title: 'Sichtschutz aus Holz & WPC',
       intro: 'Individuelle Sichtschutzelemente – stabil montiert und genau ausgerichtet.',
       image: 'assets/img/sichtschutz.jpg',
       points: [
         'Pfostenanker/Fundamentlösung',
-        'Maßanpassungen & Ausschnitte',
-        'Stahl-/Alurahmen möglich'
+        'Maßanpassungen & Ausschnitte'
       ],
       gallery: [
         { src: 'assets/img/sichtschutz_1.jpg', alt: 'Sichtschutz mit Metallpfosten' },
