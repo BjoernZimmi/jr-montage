@@ -33,7 +33,7 @@ export class LeistungenComponent {
       points: [
         'Stabile Unterkonstruktion mit Gefälle',
         'Holz & WPC-Dielen, verdeckte Verschraubung möglich',
-        'Pflege/Ölen auf Wunsch',
+        'Pflege / Ölen auf Wunsch',
         'Aufbau & Montage von Gartenhäusern'
       ],
       gallery: [
@@ -47,7 +47,7 @@ export class LeistungenComponent {
       intro: 'Individuelle Sichtschutzelemente – stabil montiert und genau ausgerichtet.',
       image: 'assets/img/sichtschutz.jpg',
       points: [
-        'Pfostenanker/Fundamentlösung',
+        'Pfostenanker / Fundamentlösung',
         'Maßanpassungen & Ausschnitte'
       ],
       gallery: [
